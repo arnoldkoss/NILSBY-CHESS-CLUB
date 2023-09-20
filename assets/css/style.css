@@ -29,6 +29,9 @@ header {
     width: 100%;
     z-index: 98;
     box-shadow: 0 4px 4px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
     
     
 }
@@ -48,7 +51,7 @@ h1 {font-family: 'Oleo Script', sans-serif;
     font-size: 120%;
     letter-spacing: 2px;
     list-style-type: none;
-    background-color: rgba(14, 9, 9, 0) 34% / 0.8);
+    background-color: rgba(14, 9, 9, 0) 34% / 0.8;
     
     
     
@@ -72,15 +75,29 @@ h1 {font-family: 'Oleo Script', sans-serif;
         width: 100%;
         left: 0;
         display: none;
-       
+        top: 100%;
     }
+
+/* Nav toggle */
+#toggle:checked~nav {
+    display: block;
+
+}
+#toggle {
+    display: none;
+}
+.navbar-toggle-label {
+    font-size: 2rem;
+    color: #fafafa;
+}
+
 
 /* Main content */
 main { 
     background-color: lightblue;
     /* Make main element take up surplus space to push the footer */
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 100px;
 }
 
 
