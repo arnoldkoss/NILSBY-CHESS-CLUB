@@ -24,6 +24,11 @@ body {
 /* Header */ 
 header {
     background-color: white;
+    padding: 0 6rem;
+    position: fixed;
+    width: 100%;
+    z-index: 98;
+    box-shadow: 0 4px 4px black;
     
 }
 
