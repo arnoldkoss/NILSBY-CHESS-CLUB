@@ -23,7 +23,7 @@ body {
 
 /* Header */ 
 header {
-    background-color: white;
+    background-color: black;
     padding: 0 6rem;
     position: fixed;
     width: 100%;
@@ -32,7 +32,13 @@ header {
     
 }
 
+header a {
+    text-decoration: none;
+}
+
 h1 {font-family: 'Oleo Script', sans-serif;
+    color: #fafafa;
+    letter-spacing: 1px;
 
 }
 
