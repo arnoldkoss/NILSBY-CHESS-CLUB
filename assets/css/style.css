@@ -24,7 +24,7 @@ body {
 /* Header */ 
 header {
     background-color: black;
-    padding: 0 6rem;
+    padding: 0 4rem;
     position: fixed;
     width: 100%;
     z-index: 98;
@@ -39,12 +39,31 @@ header a {
 h1 {font-family: 'Oleo Script', sans-serif;
     color: #fafafa;
     letter-spacing: 1px;
+    font-size: 200%;
 
+}
+
+.navbar {
+    font-size: 120%;
+    letter-spacing: 2px;
+    list-style-type: none;
+    background-color: rgba(14, 9, 9, 0) 34% / 0.8);
+    
+    
+    
+}
+.navitem a {
+    display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 6px 6px;
+        text-decoration: none;
+    
 }
 
 /* Main content */
 main { 
-    background-color: greenyellow;
+    background-color: white;
     /* Make main element take up surplus space to push the footer */
     flex: 1 0 auto;
 }
