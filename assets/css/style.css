@@ -53,7 +53,7 @@ h1 {font-family: 'Oleo Script', sans-serif;
     font-size: 120%;
     letter-spacing: 2px;
     list-style-type: none;
-    background-color: rgba(14, 9, 9, 0) 34% / 0.8;
+    background-color: rgba(14, 9, 9, 0) 
     
     
     
@@ -78,6 +78,7 @@ h1 {font-family: 'Oleo Script', sans-serif;
         left: 0;
         display: none;
         top: 100%;
+        padding: 0 1rem;
     }
 
 /* Nav toggle */
@@ -99,7 +100,7 @@ main {
     background-color: lightblue;
     /* Make main element take up surplus space to push the footer */
     flex: 1 0 auto;
-    margin-top: 0;
+    margin-top: 98px;
 }
 
 
@@ -127,5 +128,14 @@ footer {
 .navbar-toggle-label {
     display: none;
 }
+#title {
+    font-size: 260%;
+    padding: 2rem;
+}
+
+        /* Main content */
+  main {
+    margin-top: 180px;
+  }
     
 }
