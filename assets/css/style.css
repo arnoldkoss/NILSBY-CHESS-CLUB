@@ -29,7 +29,7 @@ header {
     position: fixed;
     width: 100%;
     z-index: 98;
-    box-shadow: 0 4px 4px black;
+    box-shadow: 0 3px 3px black;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -94,13 +94,30 @@ h1 {font-family: 'Oleo Script', sans-serif;
 
 /* Main content */
 main { 
-    background-color: lightblue;
+    
     /* Make main element take up surplus space to push the footer */
     flex: 1 0 auto;
     margin-top: 98px;
 }
+/* Hero image */
+#hero-image {
+    height: 300px;
+    width: 100%;
+    background: url(../images/chess-checkmated-chess-pieces-black-white-957312.webp) no-repeat center center/cover;
+}
 
+#intro {
+    background-color: #000000;
+    color: white;
+    font-family: 'Oleo Script', sans-serif;
+    text-align: left;
+    padding: 20px;
+    
+    }
 
+.intro-list {
+    list-style-type: none;
+}
   /* Footer */
 #social-media {
     text-align: center;
