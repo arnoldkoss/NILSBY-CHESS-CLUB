@@ -102,8 +102,17 @@ main {
 
 
   /* Footer */
-footer { 
-    background-color: aqua;
+#social-media {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    list-style-type: none;
+    background-color: #000000;
+}
+#social-media i {
+    font-size: 150%;
+    color: white;
 }
 
 
