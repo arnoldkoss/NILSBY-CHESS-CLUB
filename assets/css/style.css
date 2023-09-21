@@ -18,6 +18,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
+    
 }
 
 
@@ -32,6 +33,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    
     
     
 }
@@ -97,11 +99,33 @@ main {
     background-color: lightblue;
     /* Make main element take up surplus space to push the footer */
     flex: 1 0 auto;
-    margin-top: 100px;
+    margin-top: 0;
 }
 
 
   /* Footer */
 footer { 
     background-color: aqua;
+}
+
+
+/* Media query: Tablets and larger (768px and up)  */
+
+@media screen and  (min-width: 768px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+
+    }
+.navbar {
+    display: flex;
+    
+}
+.navbar-toggle-label {
+    display: none;
+}
+    
 }
