@@ -66,9 +66,6 @@ h1 {font-family: 'Oleo Script', sans-serif;
         text-decoration: none;
     
 }
-.navitem a:hover {
-    background-color: #ddd;
-    color: black;}
 
         /* Navbar dropdown toggle */
     nav {
@@ -138,4 +135,32 @@ footer {
     margin-top: 180px;
   }
     
+}
+
+/* Media query: For desktops and laptops (992px and up)  */
+
+@media screen and (min-width: 992px){
+
+    .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+    
+        .navitem {
+            font-size: 130%;
+        }
+    
+        #title {
+            font-size: 400%;
+            text-decoration: underline;
+
+    
+        }
+
+        main {
+            margin-top: 237px;
+        }
+        header {
+           padding: 40px;
+        }
 }
