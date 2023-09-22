@@ -28,7 +28,6 @@ header {
     padding: 0 4rem;
     position: fixed;
     width: 100%;
-    z-index: 98;
     box-shadow: 0 3px 3px black;
     display: flex;
     justify-content: space-between;
@@ -106,12 +105,22 @@ main {
     background: url(../images/chess-checkmated-chess-pieces-black-white-957312.webp) no-repeat center center/cover;
 }
 
+/* The reasons div */
+#reasons {
+    background-color: #000000;
+    color: #fafafa;
+    text-align: left;
+    padding: 10px 22px;
+}
+
 #intro {
     background-color: #000000;
     color: white;
     font-family: 'Oleo Script', sans-serif;
     text-align: left;
     padding: 20px;
+    letter-spacing: 2px;
+    
     
     }
 
@@ -157,11 +166,11 @@ main {
     padding: 2rem;
 }
 
-        /* Main content */
+        /* Main content 
   main {
-    margin-top: 180px;
+    margin-top: 180px<
   }
-    
+        */
 }
 
 /* Media query: For desktops and laptops (992px and up)  */
