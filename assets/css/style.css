@@ -136,8 +136,20 @@ main {
     list-style-type: none;
 }
 
-/* Google maps */
-
+ #circle-cover-bg {
+    background: url('../images/pexels-photo-8336038.jpeg') no-repeat top center/cover;
+    height: 70vw;
+    width: 70vw;
+   margin: 30px 30px 30px 30px;
+    border-radius: 50%;
+    max-width: 270px;
+    max-height: 270px;
+ }
+ #reasons-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
  
 
 
