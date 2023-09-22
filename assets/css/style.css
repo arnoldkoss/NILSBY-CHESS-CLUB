@@ -214,11 +214,13 @@ main {
   
         #intro {
             padding: 70px;
+            text-align: center;
         }
                 /* Event text */
 
                 #event {
                     padding: 60px;
+                    
                 }
 
            /* reasons text */
@@ -263,7 +265,7 @@ main {
 
                  /* main  */
         main {
-            margin-top: 237px;
+            margin-top: 230px;
         }
 
                  /*event text*/
