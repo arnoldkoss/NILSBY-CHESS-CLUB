@@ -107,11 +107,19 @@ main {
 
 /* The reasons div */
 #reasons {
-    background-color: #000000;
+    background-color: grey;
     color: #fafafa;
     text-align: left;
     padding: 10px 22px;
 }
+/* event */
+ #event {
+    background-color: black;
+    color: white;
+    padding: 15px 15px;
+ }
+
+
  /* The main text */
 #intro {
     background-color: #000000;
@@ -134,6 +142,17 @@ main {
 
 
   /* Footer */
+
+
+ /* contact info */
+.contact-info {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+
 #social-media {
     text-align: center;
     display: flex;
