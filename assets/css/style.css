@@ -210,13 +210,37 @@ main {
   main {
     margin-top: 180px
   }
-        
+/* Intro text */
+  
+        #intro {
+            padding: 70px;
+        }
+                /* Event text */
+
+                #event {
+                    padding: 60px;
+                }
+
+           /* reasons text */
+
+           #reasons {
+            padding: 60px;
+           }
 }
 
 /* Media query: For desktops and laptops (992px and up)  */
 
 @media screen and (min-width: 992px){
 
+        /* header  */
+            header {
+                padding: 40px;
+            }
+
+
+    /* navbar  */
+    
+    
     .navbar a:hover {
             background-color: #ddd;
             color: black;
@@ -226,17 +250,26 @@ main {
             font-size: 130%;
         }
     
+ /* title  */
+
         #title {
             font-size: 400%;
             text-decoration: underline;
+            margin-left: 300px;
 
     
         }
 
+
+                 /* main  */
         main {
             margin-top: 237px;
         }
-        header {
-           padding: 40px;
-        }
+
+                 /*event text*/
+    
+#event {
+    text-align: center;
+}
+             
 }
