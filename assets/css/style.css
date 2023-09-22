@@ -112,7 +112,7 @@ main {
     text-align: left;
     padding: 10px 22px;
 }
-
+ /* The main text */
 #intro {
     background-color: #000000;
     color: white;
@@ -127,6 +127,12 @@ main {
 .intro-list {
     list-style-type: none;
 }
+
+/* Google maps */
+
+ 
+
+
   /* Footer */
 #social-media {
     text-align: center;
@@ -154,10 +160,13 @@ main {
         
 
     }
+   /* Navbar */
+
 .navbar {
     display: flex;
     
 }
+        /* Navbar toggle */
 .navbar-toggle-label {
     display: none;
 }
@@ -166,11 +175,11 @@ main {
     padding: 2rem;
 }
 
-        /* Main content 
+        /* Main content */
   main {
-    margin-top: 180px<
+    margin-top: 180px
   }
-        */
+        
 }
 
 /* Media query: For desktops and laptops (992px and up)  */
