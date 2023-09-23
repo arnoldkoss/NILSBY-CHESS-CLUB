@@ -217,6 +217,9 @@ main {
 }
 
 
+
+
+
 /* Media query: Tablets and larger (768px and up)  */
 
 @media screen and  (min-width: 768px) {
@@ -266,6 +269,20 @@ main {
            #reasons {
             padding: 60px;
            }
+
+  /* About page */
+
+  section {
+    letter-spacing: 1px;
+  }
+  #first-text {
+    border-bottom: 2px solid #ddd;
+  }
+  #second-text {
+    border-bottom: 2px solid black;
+  }
+
+
 }
 
 /* Media query: For desktops and laptops (992px and up)  */
@@ -311,5 +328,76 @@ main {
 #event {
     text-align: center;
 }
+
+/* About page */
              
+/* container 1 */
+   
+.container1 {
+        
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .container1>.image1 {
+        flex: 1 0 0%;
+    }
+
+    .image1>img {
+        display: block;
+        max-width: 100%;
+        max-height: 300px;
+    }
+
+    .container1>.text1 {
+        flex: 2 0 0%;
+    }
+ 
+/* container 2 */
+
+.container2 {
+    
+    display: flex;
+   
 }
+
+.container2>.image2 {
+    flex: 1 0 0%;
+}
+
+.image2>img {
+    display: block;
+    max-width: 100%;
+    max-height: 500px;
+}
+
+.container2>.text2 {
+    flex: 2 0 0%;
+}
+
+         /* container 3 */
+
+.container3 {
+
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.container3>.image3 {
+    flex: 1 0 0%;
+}
+
+.image3>img {
+    display: block;
+    max-width: 100%;
+    max-height: 500px;
+}
+
+.container3>.text3 {
+    flex: 2 0 0%;
+}
+
+
+}
+
