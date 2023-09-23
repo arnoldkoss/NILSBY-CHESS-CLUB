@@ -152,6 +152,43 @@ main {
     justify-content: center;
  }
  
+  /* About page */
+
+
+ #about img {
+    width: 100%;
+ }
+
+
+ /* first text */
+ #first-text {
+    background-color: black;
+    color: #ddd;
+    
+ }
+ #first-text h3 {
+    padding: 20px 20px;
+ }
+
+ /* second text */
+
+  #second-text {
+    background-color: lightgray;
+    color: black;
+  }
+
+  #second-text h3 {
+    padding: 20px 20px;
+
+  }
+/* third text */
+ #third-text {
+    background-color: #000000;
+    color: #ddd;
+ }
+ #third-text h3 {
+    padding: 20px 20px;
+ }
 
 
   /* Footer */
