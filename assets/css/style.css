@@ -196,7 +196,7 @@ main {
 
 /* Contact.html */
   #signup {
-    background-color: black;
+    background-color: grey;
     flex-grow: 1;
   }
   #signup-form {
@@ -316,6 +316,13 @@ main {
     border-bottom: 2px solid black;
   }
 
+  /* contact page */
+
+  #signup-form {
+    padding: 120px;
+    
+  }
+
 
 }
 
@@ -432,6 +439,14 @@ main {
     flex: 2 0 0%;
 }
 
+
+/* contact page */
+  
+#signup-form {
+
+width: 60%;
+margin: 0 300px 0 200px;
+}
 
 }
 
