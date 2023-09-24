@@ -25,13 +25,14 @@ body {
 /* Header */ 
 header {
     background-color: black;
-    padding: 0 4rem;
+    padding: 0 2rem;
     position: fixed;
     width: 100%;
     box-shadow: 0 3px 3px black;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    z-index: 99;
     
     
     
@@ -97,7 +98,7 @@ main {
     
     /* Make main element take up surplus space to push the footer */
     flex: 1 0 auto;
-    margin-top: 98px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
 
@@ -283,10 +284,13 @@ main {
 
         /* Main content */
   main {
-    margin-top: 180px
+    margin-top: 110px
   }
+
+  /* Home page */
+
 /* Intro text */
-  
+ 
         #intro {
             padding: 70px;
             text-align: center;
