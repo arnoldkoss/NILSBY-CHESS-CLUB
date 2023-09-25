@@ -352,7 +352,7 @@ main {
 
     /* header  */
     header {
-        padding: 40px;
+        padding: 0;
     }
 
 
@@ -389,7 +389,7 @@ main {
 
     /* main  */
     main {
-        margin-top: 230px;
+        margin-top: 140px;
     }
 
     /*event text*/
