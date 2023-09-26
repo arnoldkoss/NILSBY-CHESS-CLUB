@@ -115,8 +115,8 @@ main {
 
 /* The reasons div */
 #reasons {
-    background-color: grey;
-    color: #fafafa;
+    background-color:lightgrey;
+    color: black;
     text-align: left;
     padding: 10px 22px;
 }
