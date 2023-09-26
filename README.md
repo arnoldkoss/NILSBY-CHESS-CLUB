@@ -1,39 +1,22 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# NILSBY CHESS CLUB
 
-Welcome,
+Nilsby Chess Club is a page dedicated to all chess enthusiasts who want to develop their chess skills, strategies, and socialize in one place, located in Värmland, Sweden. The site caters to both experienced chess players and those looking to start their chess journey, providing resources to enhance their game and fostering a sense of community. The website offers information about our club's location, the benefits of improving chess skills, introduces the founder, and provides an opportunity for anyone to apply.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![alt am i responsive image](documentation/responsive.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## FEATURES
 
-## Codeanywhere Reminders
+- Navigation Bar  
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, About and Contact page and is identical in each page to allow for easy navigation.
+  
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
 
-`python3 -m http.server`
+# Nilsby Chess Club
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+__The landing page image__
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- The landing includes a small description of the site and photo with a chess board to grab the viewers attention
+- This section also describes some reasons for the benefits that chess comes, and an upcoming event
 
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+[]
