@@ -176,7 +176,11 @@ main {
 
 }
 
-#first-text h3 {
+#first-text h2 {
+    padding: 20px 20px;
+    text-align: left;
+}
+#first-text p {
     padding: 20px 20px;
 }
 
@@ -187,9 +191,13 @@ main {
     color: black;
 }
 
-#second-text h3 {
+#second-text h2 {
     padding: 20px 20px;
+    text-align: left;
 
+}
+#second-text p {
+    padding: 20px 20px;
 }
 
 /* third text */
@@ -198,19 +206,24 @@ main {
     color: #ddd;
 }
 
-#third-text h3 {
+#third-text h2 {
+    padding: 20px 20px;
+    text-align: left;
+}
+
+#third-text p {
     padding: 20px 20px;
 }
 
 
 /* Contact.html */
 #signup {
-    background-color: grey;
+    background-color: lightgray;
     flex-grow: 1;
 }
 
 #signup-form {
-    background-color: grey;
+    background-color: lightgray;
     color: #000000;
     padding: 50px;
 }
