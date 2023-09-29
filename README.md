@@ -17,7 +17,7 @@ Nilsby Chess Club is a page dedicated to all chess enthusiasts who want to devel
     - [Wireframes](#wireframes)
 - [FEATURES](#features)
     - [Navigation Bar](#navigation-bar)
-  - [Footer with social media icons](#footer-with-social-media-icons)
+    - [Footer with social media icons](#footer-with-social-media-icons)
   - [The Contact Form](#the-contact-form)
 - [Nilsby Chess Club](#nilsby-chess-club-1)
   - [Features Left to Implement](#features-left-to-implement)
@@ -27,12 +27,12 @@ Nilsby Chess Club is a page dedicated to all chess enthusiasts who want to devel
   - [Index page](#index-page)
   - [About page](#about-page)
   - [Contact page](#contact-page)
-  - [Full testing](#full-testing)
+- [Full testing](#full-testing)
     - [Devices](#devices)
     - [Browsers](#browsers)
     - [Manual Testing](#manual-testing)
-  - [Deployment](#deployment)
-  - [Credits](#credits)
+- [Deployment](#deployment)
+- [Credits](#credits)
     - [Code used](#code-used)
     - [Content](#content)
     - [Media](#media)
@@ -118,7 +118,7 @@ I added a contact form so the user can send hes details and a message.
 ![inserting a picture of the reasons to play chess](documentation/reasons.png)
 
 - ### The Footer
-  - The footer includes the adress, E-mail and telephone of Nilsby Chess Club
+  - The footer includes the address, E-mail and telephone of Nilsby Chess Club
   - The footer section includes links to the relevant social media sites for Nilsby Chess Club. The links will open to a new tab to allow easy navigation for the user.
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
@@ -127,7 +127,7 @@ I added a contact form so the user can send hes details and a message.
 
 - ### About Page
   - The About Page will give the user information about the location of the club, the founder of the club and the bounds that are made between the members of the club.
-  - The About Page provides also pictures of the location, founder and of a feew of the members that are participating at the clubs activityes.
+  - The About Page provides also pictures of the location, founder and of a few of the members that are participating at the clubs activityes.
 
   ![insert the first image of the About page](documentation/1st.pic.about.png)
 
@@ -150,7 +150,7 @@ I added a contact form so the user can send hes details and a message.
 ## Testing
 
 
-# Validator Testing
+### Validator Testing
 
 - HTML
   - I used the W3C validator, no errors were found
@@ -166,18 +166,18 @@ I added a contact form so the user can send hes details and a message.
 
 ![image of the Jigsaw validator](documentation/w3c.css.png)
 
-## Lighthouse
+### Lighthouse
 
 I used Chrome's Lighthouse developer tool to check my sites performance, it was being slowed down by large images before compression but then faired well after compression. Below are the final results
-  ## Index page
+  ### Index page
 
 ![image of Lighthouse developer tool for index](documentation/lighthouse.index.png)
 
-  ## About page
+  ### About page
 
 ![image of Lighthouse developer tool for About page](documentation/lighthouse.about.png)
 
-  ## Contact page
+  ### Contact page
 
 ![image of Lighthouse developer tool for Contact page](documentation/lighthouse.contact.png)
 
@@ -230,7 +230,7 @@ The live link can be found here - <https://arnoldkoss.github.io/NILSBY-CHESS-CLU
 ## Credits
 
 ### Code used
-I used the Love Running code for the navbar and header, but not to full extent, I have taylored it to fit on my view of how the chess club site should look like.
+I used the Love Running code for the navbar and header, but not to full extent, I have tailored it to fit on my view of how the chess club site should look like.
 
 ### Content
 
