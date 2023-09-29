@@ -7,25 +7,64 @@ Nilsby Chess Club is a page dedicated to all chess enthusiasts who want to devel
 ![inserting a responsive image](documentation/responsive.png)
 
 ## Contents
--  [FEATURES](#FEATURES) 
-    - [Navigation Bar](#navigation-bar)
-   - [Footer with social media icons](#footer-with-social-media-icons)
-   - [The Contact Form](#the-contact-form)
 
-- [Nilsby Chess Club](#nilsby-chess-club)
-    - [The landing page image](#the-landing-page-image)
-    - [The reasons section](#the-reasons-section)
-    - [The Footer](#the-footer)
-    - [About Page](#about-page)
-    - [Contact Page](#contact-page)
-- [Full Testing](#full-testing)
+- [NILSBY CHESS CLUB](#nilsby-chess-club)
+  - [Contents](#contents)
+  - [User Stories](#user-stories)
+  - [Design](#design)
+    - [Colour Scheme](#colour-scheme)
+    - [Typography](#typography)
+    - [Wireframes](#wireframes)
+  - [FEATURES](#features)
+- [Nilsby Chess Club](#nilsby-chess-club-1)
+  - [Features Left to Implement](#features-left-to-implement)
+  - [Testing](#testing)
+- [Validator Testing](#validator-testing)
+  - [Lighthouse](#lighthouse)
+  - [Index page](#index-page)
+  - [About page](#about-page)
+  - [Contact page](#contact-page)
+  - [Full testing](#full-testing)
     - [Devices](#devices)
     - [Browsers](#browsers)
-- [Deployment](#deployment)
-- [Credits](#credits)
-  - [Code Used](#code-used)
-  - [Content](#content)
-  - [Media](#media)
+    - [Manual Testing](#manual-testing)
+  - [Deployment](#deployment)
+  - [Credits](#credits)
+    - [Code used](#code-used)
+    - [Content](#content)
+    - [Media](#media)
+
+
+## User Stories
+
+  - "I am a retired person living in Nilsby looking for some activities to do" 
+  
+   My site provides a user friendly and welcoming way to give information to new members.
+
+- "I am an avid chess player who is looking for a challenge"
+
+My site has interesting historical information that chess players may be interested
+
+- "I am a social person that loves mind sports"
+
+My site provides information about both the game and thefriendly social enviroment that most people want to have in a club.
+
+  ## Design
+
+  ### Colour Scheme
+
+![image of the colour scheme](documentation/colour-scheme.png)
+
+The choice of my color scheme was based on the colours of the chess board. To give a total feel of the game I considered these colours are best apropriate. As for the lightgrey, I implemented it for the variety, and a better feel for the user.
+
+### Typography
+
+I went for a Google 'Oleo Script' in the title and main text because it gave a feeling of old, as the game that the users love. As for the rest of the page i went for the standard 'Sans Serif' because i think it is easyer for the user to read and also not to give the feeling that the page is too charget.
+
+![image of the typography, oleo script](documentation/oleo.script.png)
+
+### Wireframes
+
 
 ## FEATURES
 
@@ -144,15 +183,29 @@ I used Chrome's Lighthouse developer tool to check my sites performance, it was 
 
 Additional testing was taken by friends and familly on a variety of devices and screen sizes.
 
+### Manual Testing
+
+| Feature                        | Expected Outcome                                      | Testing Performed            | Result                                | Pass/Fail |
+|--------------------------------|------------------------------------------------------|------------------------------|---------------------------------------|-----------|
+| **Navbar**                     |                                                      |                              |                                       |           |
+| Home   | When clicked, the user will be redirected to the home page. | Clicked Home  | Redirected to the home page.          | Pass      |
+| About Page Link                 | When clicked, the user will be redirected to the About page. | Clicked link            | Redirected to the About page.          | Pass      |
+| Contact Link             | When clicked, the user will be redirected to the Contact page. | Clicked link     | Redirected to the Contact page.  | Pass      |
+| **Footer**           |                                                                     |                            |                                                      |           |
+| Social Icons         | When clicked, the user will be redirected to the appropriate social media pages in a new window. | Clicked icon | Redirected to the social media page in a new window. | Pass      |
+**Contact form**           |                                                                     |                            |                                                      |           |
+| Contact form         | When items were left out, there was a message asking to fill the section in. | Clicked submit while leaving the form unfilled | Form requested sections to be filled in.       | Pass      |
 
 ## Deployment
+
+The live link can be found here - <https://arnoldkoss.github.io/NILSBY-CHESS-CLUB/>
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
   - In the GitHub repository, navigate to the Settings tab
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - <https://arnoldkoss.github.io/NILSBY-CHESS-CLUB/>
+
 
 ## Credits
 
