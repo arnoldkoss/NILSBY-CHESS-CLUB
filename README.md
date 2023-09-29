@@ -9,13 +9,16 @@ Nilsby Chess Club is a page dedicated to all chess enthusiasts who want to devel
 ## Contents
 
 - [NILSBY CHESS CLUB](#nilsby-chess-club)
-  - [Contents](#contents)
-  - [User Stories](#user-stories)
-  - [Design](#design)
+- [Contents](#contents)
+- [User Stories](#user-stories)        
+- [Design](#design)
     - [Colour Scheme](#colour-scheme)
     - [Typography](#typography)
     - [Wireframes](#wireframes)
-  - [FEATURES](#features)
+- [FEATURES](#features)
+    - [Navigation Bar](#navigation-bar)
+  - [Footer with social media icons](#footer-with-social-media-icons)
+  - [The Contact Form](#the-contact-form)
 - [Nilsby Chess Club](#nilsby-chess-club-1)
   - [Features Left to Implement](#features-left-to-implement)
   - [Testing](#testing)
@@ -64,6 +67,23 @@ I went for a Google 'Oleo Script' in the title and main text because it gave a f
 ![image of the typography, oleo script](documentation/oleo.script.png)
 
 ### Wireframes
+### Home
+
+![wireframe picture desktop Home page](documentation/wframe1desk.png)
+
+### About
+
+![wireframe picture desktop About page](documentation/wframe2desk.png)
+
+### Contact
+
+![wireframe picture desktop Contact page](documentation/wframe3desk.png)
+
+![wireframe picture for phone Home page](documentation/wframe1phone.png)
+
+![wireframe picture for phone About page](documentation/wframe2phone.png)
+
+![wireframe picture for phone Contact page](documentation/wframe3phone.png)
 
 
 ## FEATURES
