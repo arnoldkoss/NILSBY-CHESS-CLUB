@@ -31,12 +31,14 @@ Nilsby Chess Club is a page dedicated to all chess enthusiasts who want to devel
     - [Devices](#devices)
     - [Browsers](#browsers)
     - [Manual Testing](#manual-testing)
+- [Technologies Used](#technologies-used)
+- [Languages Used](#languages-used)
 - [Deployment](#deployment)
 - [Credits](#credits)
     - [Code used](#code-used)
     - [Content](#content)
     - [Media](#media)
-
+- [Acknowledgments](#acknowledgments)
 
 ## User Stories
 
@@ -212,9 +214,29 @@ Additional testing was taken by friends and familly on a variety of devices and 
 | About Page Link                 | When clicked, the user will be redirected to the About page. | Clicked link            | Redirected to the About page.          | Pass      |
 | Contact Link             | When clicked, the user will be redirected to the Contact page. | Clicked link     | Redirected to the Contact page.  | Pass      |
 | **Footer**           |                                                                     |                            |                                                      |           |
-| Social Icons         | When clicked, the user will be redirected to the appropriate social media pages in a new window. | Clicked icon | Redirected to the social media page in a new window. | Pass      |
+| Social Icons-Facebook      | When clicked, the user will be redirected to the Facebook page in a new window. | Clicked icon | Redirected to the Facebook page in a new window. | Pass      |
+| Social Icons-Instagram      | When clicked, the user will be redirected to the Instagram page in a new window. | Clicked icon | Redirected to the Instagram page in a new window. | Pass      |
+| Social Icons-Twitter      | When clicked, the user will be redirected to the Twitter page in a new window. | Clicked icon | Redirected to the Twitter page in a new window. | Pass      |
+| Social Icons-Youtube      | When clicked, the user will be redirected to the Youtube page in a new window. | Clicked icon | Redirected to the Youtube page in a new window. | Pass      |
 **Contact form**           |                                                                     |                            |                                                      |           |
 | Contact form         | When items were left out, there was a message asking to fill the section in. | Clicked submit while leaving the form unfilled | Form requested sections to be filled in.       | Pass      |
+| **Contact form**  |  Typed everything in but email is in the wrong format                     | Clicked submit                     | Form requested the @ element to be included | Pass      |
+| **Contact Form**| Typed everything right and should expect the form to submit | Clicked submit  | Form submited | Pass      |
+
+
+## Technologies Used
+
+- Github - Used for storage of my site and for publishing online.
+- Codeanywhere - The IDE used for editing my site and pushing changes.
+- Python - Used python 3 via terminal to preview my site using a local http server.
+- HTML5 - The core of the site was built with HTML version 5.
+- CSS - CSS was used to style the website and define fonts and layout.
+- Font Awesome - Social Media icons from Font Awesome.
+- Google Chrome - The website was built and tested in google Chrome.
+  
+## Languages Used
+- HTML
+- CSS
 
 ## Deployment
 
@@ -241,3 +263,5 @@ I used the Love Running code for the navbar and header, but not to full extent, 
 
 - The photos used on the home and About page are from [Pexels](https://www.pexels.com/)
 
+###  Acknowledgments
+I want to thank my mentor Luke for his great guidance and support and to the slack colleagues for the help I got.
